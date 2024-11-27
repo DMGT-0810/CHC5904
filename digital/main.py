@@ -50,7 +50,7 @@ if page == '🏠 Introduction':
     ''')
 
     # Image placeholders with local paths
-    st.image('https://github.com/DMGT-0810/CHC5904/blob/f089db950c8e174a7f24e6e87d14190c74175536/digital/image/1.PNG')
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/1.PNG?raw=true')
     st.image('./image/2.png')
 
     # Third submodule: Plants, Emotions, Seasons & Locations
