@@ -82,8 +82,7 @@ if page == '🏠 Introduction':
 
     # Additional image placeholders for the third submodule
     st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/3.png?raw=true')
-    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/4.png?raw=true
-')
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/4.png?raw=true')
 
     # 3-2
     st.subheader('Seasonal Distribution of Selected Plants')
@@ -93,8 +92,7 @@ if page == '🏠 Introduction':
 
     # Additional image placeholders for the third submodule
     st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/5.png?raw=true')
-    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/6.png?raw=true
-')
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/6.png?raw=true')
 
     # 3-3
     st.subheader('Tracing the Ancient Roots')
@@ -196,8 +194,7 @@ elif page == '🌱 Plants':
             隰桑有阿，其叶有幽。既见君子，德音孔胶。
             ''')
 
-        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/8.png?raw=true
-', width=300)
+        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/8.png?raw=true', width=300)
 
         tabs = st.tabs(["The purity and boldness of emotions", "Admiration and pursuit of morality for gentlemen"])
         contents = [
