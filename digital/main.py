@@ -81,8 +81,9 @@ if page == '🏠 Introduction':
     ''')
 
     # Additional image placeholders for the third submodule
-    st.image('./image/3.png')
-    st.image('./image/4.png')
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/3.png?raw=true')
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/4.png?raw=true
+')
 
     # 3-2
     st.subheader('Seasonal Distribution of Selected Plants')
@@ -91,8 +92,9 @@ if page == '🏠 Introduction':
         ''')
 
     # Additional image placeholders for the third submodule
-    st.image('./image/5.png')
-    st.image('./image/6.png')
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/5.png?raw=true')
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/6.png?raw=true
+')
 
     # 3-3
     st.subheader('Tracing the Ancient Roots')
@@ -194,7 +196,8 @@ elif page == '🌱 Plants':
             隰桑有阿，其叶有幽。既见君子，德音孔胶。
             ''')
 
-        st.image('./image/8.png', width=300)
+        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/8.png?raw=true
+', width=300)
 
         tabs = st.tabs(["The purity and boldness of emotions", "Admiration and pursuit of morality for gentlemen"])
         contents = [
@@ -271,7 +274,7 @@ elif page == '🌱 Plants':
                     言告师氏，言告言归。薄污我私，薄澣我衣。害澣害否？归宁父母。
                     ''')
 
-        st.image('./image/9.png', width=300)
+        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/9.png?raw=true', width=300)
 
         tabs = st.tabs(["Diligence", "Filial Piety", "Sense of responsibility"])
         contents = [
@@ -323,7 +326,7 @@ elif page == '😊 Interaction':
     st.markdown(f"[Click here.]({url})", unsafe_allow_html=True)
 
     st.subheader('2.Mini-Programme')
-    st.image('./image/10.png', width=300)
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/10.png?raw=true', width=300)
 
 elif page == '💖 About Us':
     st.title('About Us')
