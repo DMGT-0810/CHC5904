@@ -11,7 +11,7 @@ page = st.sidebar.radio('Navigation',
                         ['🏠 Introduction', '🌱 Plants', '😊 Interaction', '💖 About Us'])
 
 if page == '🏠 Introduction':
-    cover_photo_path = "https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/15.png"
+    cover_photo_path = "https://github.com/DMGT-0810/CHC5904/blob/eb1ebadb3a565304db7e97577aa24643add56931/digital/image/15.png"
     st.image(cover_photo_path, use_column_width=True)
 
     st.title("🌺Exploring Plant Imagery and Symbolism in the Book of Poetry")
