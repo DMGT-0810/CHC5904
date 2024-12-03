@@ -11,8 +11,8 @@ page = st.sidebar.radio('Navigation',
                         ['🏠 Introduction', '🌱 Plants', '😊 Interaction', '💖 About Us'])
 
 if page == '🏠 Introduction':
-    cover_photo_path = "https://github.com/DMGT-0810/CHC5904/blob/eb1ebadb3a565304db7e97577aa24643add56931/digital/image/15.png"
-    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/1.png?raw=true',use_column_width=True)
+    cover_photo_path = "https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/15.png"
+    st.image(cover_photo_path, use_column_width=True)
 
     st.title("🌺Exploring Plant Imagery and Symbolism in the Book of Poetry")
 
@@ -53,8 +53,8 @@ if page == '🏠 Introduction':
     ''')
 
     # Image placeholders with local paths
-    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/1.png?raw=true')
-    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/2.png?raw=true')
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/1.png')
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/2.png')
 
     # Third submodule: Plants, Emotions, Seasons & Locations
     st.header('🌍 Plants, Emotions, Seasons & Locations')
@@ -84,8 +84,8 @@ if page == '🏠 Introduction':
     ''')
 
     # Additional image placeholders for the third submodule
-    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/3.png?raw=true')
-    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/4.png?raw=true')
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/3.png')
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/4.png')
 
     # 3-2
     st.subheader('Seasonal Distribution of Selected Plants')
@@ -94,8 +94,8 @@ if page == '🏠 Introduction':
         ''')
 
     # Additional image placeholders for the third submodule
-    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/5.png?raw=true')
-    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/6.png?raw=true')
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/5.png')
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/6.png')
 
     # 3-3
     st.subheader('Tracing the Ancient Roots')
@@ -110,8 +110,8 @@ if page == '🏠 Introduction':
     st.components.v1.html(html_content, height=600, scrolling=True)
 
     # Additional image placeholders for the third submodule
-    # st.image('./image/5.png', caption='Third Plant Image')
-    # st.image('./image/6.png', caption='Fourth Plant Image')
+    # st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/5.png', caption='Third Plant Image')
+    # st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/6.png', caption='Fourth Plant Image')
 
     categories_content = {
         "Mulberry(桑)": "期我乎桑中，要我乎上宫[《鄘风·桑中》]\n  - In Ancient Times: widespread in the Yellow River region, especially in Wei State (modern-day northern Henan and southern Hebei).\n  - Today: Mulberry trees are still common in northern China, particularly in areas like the ancient mulberry tree cluster in Xiajin, Shandong.",
@@ -131,7 +131,7 @@ if page == '🏠 Introduction':
 
 elif page == '🌱 Plants':
 
-    cover_photo_path = "./image/16.png"
+    cover_photo_path = "https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/16.png"
     st.image(cover_photo_path, use_column_width=True)
 
     st.title('🌱 Deep Dives into Plant Symbolism')
@@ -201,7 +201,7 @@ elif page == '🌱 Plants':
             隰桑有阿，其叶有幽。既见君子，德音孔胶。
             ''')
 
-        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/8.png?raw=true', width=300)
+        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/8.png', width=300)
 
         tabs = st.tabs(["The purity and boldness of emotions", "Admiration and pursuit of morality for gentlemen"])
         contents = [
@@ -278,7 +278,7 @@ elif page == '🌱 Plants':
                     言告师氏，言告言归。薄污我私，薄澣我衣。害澣害否？归宁父母。
                     ''')
 
-        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/8.png?raw=true', width=300)
+        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/9.png', width=300)
 
         tabs = st.tabs(["Diligence", "Filial Piety", "Sense of Responsibility"])
         contents = [
@@ -359,7 +359,7 @@ elif page == '🌱 Plants':
                             曾孙之稼，如茨如梁。曾孙之庾，如坻如京。乃求千斯仓，乃求万斯箱。黍稷稻粱，农夫之庆。报以介福，万寿无疆。
                             ''')
 
-        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/7.png?raw=true', width=300)
+        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/7.png', width=300)
 
         tabs = st.tabs(["Concern for the Nation's Fate", "Diligence and Harvest"])
         contents = [
@@ -437,7 +437,7 @@ elif page == '🌱 Plants':
                             焉得谖草？言树之背。愿言思伯。使我心痗。
                             ''')
 
-        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/11.png?raw=true', width=300)
+        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/11.png', width=300)
 
         tabs = st.tabs(["Diligent and Strong Qualities", "Loyalty and Sacrifice"])
         contents = [
@@ -525,7 +525,7 @@ elif page == '🌱 Plants':
                             酒既和旨、飲酒孔偕。鐘鼓既設、舉醻逸逸。
                             ''')
 
-        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/12.png?raw=true', width=300)
+        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/12.png', width=300)
 
         tabs = st.tabs(["Family Affection", "Order and Harmony"])
         contents = [
@@ -613,7 +613,7 @@ elif page == '🌱 Plants':
                             帝省其山，柞棫斯拔，松柏斯兑。
                             ''')
 
-        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/13.png?raw=true', width=300)
+        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/13.png', width=300)
 
         tabs = st.tabs(["Perseverance and Mutual Support", "Resilience in Adversity"])
         contents = [
@@ -689,7 +689,7 @@ elif page == '🌱 Plants':
                             如竹苞矣，如松茂矣。兄及弟矣，式相好矣，无相犹矣。
                             ''')
 
-        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/14.png?raw=true', width=300)
+        st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/14.png', width=300)
 
         tabs = st.tabs(["Integrity and Humility", "Unity and Harmony"])
         contents = [
@@ -701,7 +701,7 @@ elif page == '🌱 Plants':
                 st.write(content)
 
 elif page == '😊 Interaction':
-    cover_photo_path = "https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/17.png?raw=true"
+    cover_photo_path = "https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/17.png"
     st.image(cover_photo_path, use_column_width=True)
 
     st.title('😊 Interaction')
@@ -749,7 +749,7 @@ elif page == '😊 Interaction':
         Please scan the QR code below:
 
         ''')
-    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/10.png?raw=true', width=300)
+    st.image('https://github.com/DMGT-0810/CHC5904/blob/main/digital/image/10.png', width=300)
 
     st.subheader("🔍 User Guide")
     categories_content = {
